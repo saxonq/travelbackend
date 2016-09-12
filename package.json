@@ -1,0 +1,27 @@
+{
+  "name"         : "Travel",
+  "version"      : "0.0.1",
+  "description"  : "Travel",
+  "main"         : "app.js",
+  "author"       : "Penny Wong",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies" : {
+    "underscore"    : "latest",
+    "request"    : "latest",
+    "querystring"    : "latest",
+    "promise" : "latest",
+    "async" : "latest",
+    "mongodb" : "latest",
+    "node-schedule" : "latest",
+    "express" : "latest",
+    "body-parser" : "latest",
+    "ejs": "latest",
+    "path": "latest",
+    "moment": "latest"
+  },
+  "engines": {
+    "node": "0.12.5"
+  }
+}
