@@ -30,7 +30,7 @@ app.use("/images", express.static(path.join(__dirname + '/images')));
 // });
 
 app.get('/', function(req, res) {
-	var result = {msg: 'Hello World'};
+	var result = {msg: 'Hello World Again'};
 	res.json(result);
 });
 
